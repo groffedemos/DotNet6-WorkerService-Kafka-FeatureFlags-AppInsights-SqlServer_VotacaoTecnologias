@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/workerquestao-kafka-appinsights-featureflags-dotnet6
+  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/workerquestao-eventhubs-dotnet6-anp
   DIR_WEBAPP: './WorkerQuestao'
   
 jobs:
